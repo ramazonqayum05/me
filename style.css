@@ -1,0 +1,22 @@
+@media (min-width: 480px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    #offcanvasNavbar {
+        max-width: 70%;
+    }
+    .my_logo {
+        width: 50px;
+        height: 50px;
+        border: 3px solid black;
+        border-radius: 50%;
+    }
+    .navbar-toggler {
+        padding: 0;
+        border-radius: 0;
+        border: none;
+    }
+}
