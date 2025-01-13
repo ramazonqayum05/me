@@ -11,15 +11,18 @@
 }
 
 header {
+    position: fixed;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-top: 5px;
+    padding: 5px;
+    background-color: #8f00ff;
 }
 
 .logo {
     width: 50px;
-    border: 2px solid #8f00ff;
+    border: 2px solid white;
     border-radius: 50%;
 }
 
@@ -33,18 +36,18 @@ header {
 }
 
 .btn:hover #menu-icon {
-    background-color: #8f00ff;
+    background-color: inherit;
     color: white;
 }
 
 .btn:active #menu-icon {
-    background-color: #8f00ff;
+    background-color: inherit;
     color: white;
 }
 
 #menu-icon {
     font-size: 30px;
-    color: #8f00ff;
+    color: white;
 }
 
 .offcanvas {
@@ -72,4 +75,33 @@ header {
 
 .about-me-div a:hover {
     color: #8f00ff;
+}
+
+footer {
+    position: fixed;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #8f00ff;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 576px) {
+    .container {
+        display: none;
+    }
 }
