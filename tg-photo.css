@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    max-width: 576px;
+    margin: auto;
+    display: flex;
+    padding: 0;
+    padding-top: 230px;
+}
+
+@media (min-width: 576px) {
+    .container {
+        display: none;
+    }
+}
