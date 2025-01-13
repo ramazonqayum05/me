@@ -43,6 +43,14 @@ button {
     background-color: inherit !important;
 }
 
+button:hover {
+    background-color: inherit;
+}
+
+button:active {
+    background-color: inherit;
+}
+
 .btn:hover #menu-icon {
     background-color: inherit !important;
     color: #0000ff;
