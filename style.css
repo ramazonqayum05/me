@@ -7,7 +7,7 @@
 .container {
     max-width: 576px;
     margin: auto;
-    padding: 0 20px;
+    padding: 0 5px;
 }
 
 header {
@@ -119,7 +119,7 @@ footer a h6 {
 }
 
 .space-div {
-    height: 70px;
+    height: 75px;
 }
 
 @media (min-width: 576px) {
