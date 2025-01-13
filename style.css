@@ -36,6 +36,7 @@ header {
     border: none;
     --bs-btn-hover-bg: none;
     --bs-btn-active-bg: none;
+    transition: all 0.5s ease;
 }
 
 .btn:hover #menu-icon {
@@ -51,6 +52,7 @@ header {
 #menu-icon {
     font-size: 30px;
     color: #777;
+    transition: all 0.5s ease;
 }
 
 .offcanvas {
@@ -76,8 +78,8 @@ header {
     text-decoration: none;
     color: #777;
     font-weight: 600;
-    border-bottom: 2px solid #777;
-    transition: all 0.4s ease;
+    border-bottom: 2px solid #999;
+    transition: all 0.5s ease;
 }
 
 .about-me-div a:hover {
@@ -105,6 +107,7 @@ footer a {
     display: flex;
     flex-direction: column;
     text-align: center;
+    transition: all 0.5s ease;
 }
 
 footer a:hover {
@@ -117,6 +120,7 @@ footer a:active {
 
 footer a h6 {
     font-size: 10px;
+    color: black;
 }
 
 .space-div {
