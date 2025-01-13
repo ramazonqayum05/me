@@ -33,6 +33,7 @@ header {
     background-color: inherit;
     border: none;
     --bs-btn-hover-bg: none;
+    --bs-btn-active-bg: none;
 }
 
 .btn:hover #menu-icon {
@@ -98,6 +99,10 @@ footer a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+footer a:hover {
+    margin-bottom: 20px;
 }
 
 @media (min-width: 576px) {
