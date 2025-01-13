@@ -122,6 +122,10 @@ footer a h6 {
     height: 75px;
 }
 
+.https {
+    text-decoration: none;
+}
+
 @media (min-width: 576px) {
     .container {
         display: none;
