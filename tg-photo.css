@@ -13,7 +13,7 @@ body {
     margin: auto;
     display: flex;
     padding: 0;
-    padding-top: 230px;
+    padding-top: 180px;
 }
 
 @media (min-width: 576px) {
