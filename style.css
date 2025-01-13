@@ -86,6 +86,10 @@ header {
     color: black;
 }
 
+main h3 {
+    margin-top: 20px;
+}
+
 footer {
     position: fixed;
     bottom: 0;
