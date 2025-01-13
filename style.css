@@ -19,11 +19,12 @@ header {
     padding: 5px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    z-index: 10;
 }
 
 .logo {
     width: 50px;
-    border: 2px solid #0000ff;
+    border: 3px solid black;
     border-radius: 50%;
 }
 
@@ -39,12 +40,12 @@ header {
 
 .btn:hover #menu-icon {
     background-color: inherit;
-    color: #999;
+    color: #0000ff;
 }
 
 .btn:active #menu-icon {
     background-color: inherit;
-    color: #999;
+    color: #0000ff;
 }
 
 #menu-icon {
@@ -67,7 +68,7 @@ header {
 .about-me-div {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     margin-top: 30px;
 }
 
@@ -120,6 +121,14 @@ footer a h6 {
 
 .space-div {
     height: 75px;
+}
+
+.images {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 @media (min-width: 576px) {
