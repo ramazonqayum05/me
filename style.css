@@ -39,6 +39,11 @@ header {
     transition: all 0.5s ease;
 }
 
+.roma_logo {
+    width: 80px;
+    height: auto;
+}
+
 button {
     background-color: inherit !important;
 }
